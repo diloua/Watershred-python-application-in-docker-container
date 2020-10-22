@@ -1,0 +1,26 @@
+Abstract :
+
+I know I should not justify myslef like this. But I wanted to say that this homework has been done in extreme circumstances. My computer decided to give up its screen this past 2 weeks and I have been struggeling to get a replacement for it. But I did most of what I could even though its not satisfying.
+This should not affect the grading but I just wanted to point that out first.
+
+
+
+References :
+
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.mgrid.html
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html
+https://github.com/mzur/watershed ONly used this for the get neighbour function, which was way faster than the one I was using, and I tuned it to adapt it to what I needed.
+
+
+Questions :
+
+II)
+
+By using an 8 connected watershred more pixels are going to be considered connected compared than the 4 connected one, its going to reach more on the 8 connected one. Which means the watershred will be segmenting more on the 4 connected one, which is going to create more region,because pixels are seperated more often. 
+
+III) 
+
+Because of the limited ability of my computer I had to choose small images to compute. Because else it would crash. 
+So I chose a first image where I applied a Gaussian filter, the original image has a dark side on top and bright on down. 
+In the second image I applied a median filter to compare it with the first
+In the third image I applied a simple thresholding of a bright value

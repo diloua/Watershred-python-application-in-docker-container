@@ -105,7 +105,8 @@ for j in level_indices:
                          fifo.append(r)
                          labels[r[0], r[1]] = current_label
     i = j
-file_split = os.path.splitext(sys.argv[1])[0]
 
+file_split = os.path.splitext(sys.argv[1])[0]
+print(labels)
 file_name = "output/" + file_split + "_wt_" + sys.argv[2] + ".txt"
 np.savetxt(file_name, labels, delimiter=',', fmt='%d')

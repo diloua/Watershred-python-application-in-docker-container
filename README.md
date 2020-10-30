@@ -1,15 +1,20 @@
 # Watershred-python-application-in-docker-container
 
 ## Description
+"
+The python application applies an image segmentation operation called "watershred transformation" to a greyscale image. The aim of this technique is to segment the image, typically when two regions-of-interest are close to each other.
 
-The python application applies a watershred transformation to a greyscale image.
-This application is ran inside a Docker container. 
+We inject CI/CD tools to this application, it is built inside a docker container and the docker image is push in a repository in dockerhub. 
 
-## How to run
+## Running the application inside with docker 
 
 ### Run inside the container :
-docker build . 
+
+`<addr>` docker build . 
+
 Builds the dockerfile and creates a container that runs the application. 
+
+docker push
 
 ### Run directly
 

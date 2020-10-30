@@ -7,11 +7,11 @@ This application is ran inside a Docker container.
 
 ## How to run
 
-#Run inside the container :
+### Run inside the container :
 docker build . 
 Builds the dockerfile and creates a container that runs the application. 
 
-#Run directly
+### Run directly
 
 python watershred file.txt watershredlevel 
 

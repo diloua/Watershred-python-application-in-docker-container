@@ -10,7 +10,7 @@ We inject CI/CD tools to this application, it is built inside a docker container
 
 ### Run inside the container :
 
-`<addr>` docker build . 
+`docker build .`  
 
 Builds the dockerfile and creates a container that runs the application. 
 

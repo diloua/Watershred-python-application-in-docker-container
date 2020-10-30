@@ -10,18 +10,25 @@ We inject CI/CD tools to this application, it is built inside a docker container
 
 ### Run inside the container :
 
-`docker build .`  
+`docker build -t image_name .`  
 
 Builds the dockerfile and creates a container that runs the application. 
 
-docker push
+`docker push user_id/image_name:tag_name`  
+
+Pushes the docker in the dockerhub repository 
+
+Our docker image is pushed in 
+
+https://hub.docker.com/repository/docker/oualidelbouanani/watershred_v1
+
 
 ### Run directly
 
-python watershred file.txt watershredlevel 
+`python watershred file.txt watershredlevel`
 
-file.txt : csv representation of grayscale image
-watershredlevel: int representing the level of the watershred
+file.txt : csv representation of grayscale image (ie: f1_dinv.txt)
+watershredlevel: int representing the level of the watershred(ie : 2 or 4 or 8 )
 
 Example : python watershred f1_dinv.txt 2
 

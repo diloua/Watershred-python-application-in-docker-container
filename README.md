@@ -6,9 +6,9 @@ The python application applies an image segmentation operation called "watershre
 
 We inject CI/CD tools to this application, it is built inside a docker container and the docker image is push in a repository in dockerhub. 
 
-## Running the application inside with docker 
+## Running the application 
 
-### Run inside the container :
+### Run inside the docker container :
 
 `docker build -t image_name .`  
 
